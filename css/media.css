@@ -1,0 +1,28 @@
+@media (min-width: 800px) and (max-width: 1000px) {
+  nav {
+    width: 26%; }
+    nav ol {
+      margin: 20px 0 0 10px;
+      font-size: 15px; }
+  h2 {
+    font-size: 18px; }
+  main {
+    margin-left: 30%;
+    padding-right: 25px; }
+  .money {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 60px; }
+    .money li {
+      width: 41.5%;
+      margin-right: 0; }
+      .money li .numbers {
+        font-size: 13px; }
+        .money li .numbers span {
+          font-size: 24px; }
+      .money li .lowest img {
+        width: 6%; }
+      .money li .lowest p {
+        font-size: 12px; }
+    .money li:first-child, .money li:nth-child(2) {
+      margin-bottom: 55px; } }
